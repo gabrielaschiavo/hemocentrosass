@@ -39,7 +39,7 @@ header {
   margin-right: 30px;
   padding-top: 10px;
   font-weight: bold; }
-.navbar-nav a {
+  .navbar-nav a {
     border-radius: 3px;
     margin-right: 0 5px;
     padding: 7px 13px;
@@ -47,7 +47,7 @@ header {
     font-size: 18px;
     text-transform: uppercase;
     color: white; }
-.navbar-nav a:hover {
+    .navbar-nav a:hover {
       background-color: rgba(255, 255, 255, 0.637);
       transition: .4s; }
 
@@ -216,21 +216,21 @@ h4 {
   border-radius: 20px;
   outline: none;
   color: #585858; }
-.form-input:focus {
+  .form-input:focus {
     background: linear-gradient(to bottom, transparent, #fac1c179);
     outline: none;
     border-bottom: 3px solid #f86b33; }
-.form-input [type="submit"] {
+  .form-input [type="submit"] {
     background-color: #ff4800;
     border-bottom: none;
     padding: 12px; }
-.form-input [type="submit"]:hover {
+    .form-input [type="submit"]:hover {
       background-color: #f86b33;
       border-bottom: none;
       padding: 12px; }
-.form-input [type="submit"]:focus {
+    .form-input [type="submit"]:focus {
       background: #9efaf5; }
-.form-input [type="submit"]:active {
+    .form-input [type="submit"]:active {
       background: linear-gradient(to bottom, #ffffff, #9fecfa); }
 
 .form {
@@ -247,10 +247,10 @@ h4 {
   color: #ffffff;
   text-align: center;
   padding: 10px; }
-.legales h4 {
+  .legales h4 {
     text-transform: uppercase;
     font-size: 15px; }
-.legales h5 {
+  .legales h5 {
     font-size: 15px; }
 
 @media screen and (max-width: 858px) {
