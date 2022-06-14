@@ -1,0 +1,18 @@
+%card {
+    border-radius: 10px;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);
+    margin: 10px;
+    }
+
+%animacion-card {
+    transition: all 0.25s;
+    &:hover {
+		transform: translateY(-5px);
+		box-shadow: 0 12px 16px rgba(196, 235, 250, 0.37);
+	}
+}
+
+%titulo {
+    font-size: 1.5rem;
+    font-weight: bold;
+}

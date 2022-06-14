@@ -1,0 +1,51 @@
+header {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	width: 100%;
+	z-index: 1;
+}
+.navbar {
+	background-color: #ff4747;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	box-shadow: 5px 0 10px rgba(0, 0, 0, .6);
+	position: fixed;
+}
+.navbar-brand {
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	color: rgb(255, 255, 255);
+	font-size: 35px;
+	padding: 0 40px;
+	font-weight: bold;
+}
+.navbar-nav {
+	display: flex;
+	justify-content: flex-end;
+	list-style: none;
+	margin-right: 30px;
+	padding-top: 10px;
+	font-weight: bold;
+	a {
+		border-radius: 3px;
+		margin-right: 0 5px;
+		padding: 7px 13px;
+		text-decoration: none;
+		font-size: 18px;
+		text-transform: uppercase;
+		color: rgb(255, 255, 255);
+		&:hover {
+			background-color: rgba(255, 255, 255, 0.637);
+			transition: .4s;
+		}
+	}
+}
+a {
+	&:active {
+		background-color: rgba(255, 255, 255, 0.637);
+		transition: .4s;
+	}
+}

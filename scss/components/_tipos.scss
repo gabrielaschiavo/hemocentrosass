@@ -1,0 +1,39 @@
+@import "base/extends";
+@import "base/mixins";
+
+.video-tipos {
+	width: 100%;
+	padding: 0px 20px;
+	display: flex;
+	justify-content: center;
+}
+.container-tipos {
+	padding-top: 20px;
+	width: 100%;
+	color: grey;
+	gap: 10px;
+	display: flex;
+	justify-content: center;
+}
+.card-tipos {
+	@extend %card;
+	@include tamaño-card(320px, 550px);
+	line-height: normal;
+	text-align: justify;
+	@extend %animacion-card;
+}
+h4 {
+	@extend %titulo;
+	padding-top: 10px;
+	text-align: center;
+}
+.imgcard {
+	width: 100%;
+	padding: 10px 0px;
+}
+.descripcion {
+	padding: 10px;
+	font-size: 16px;
+	font-weight: 300;
+	text-align: justify;
+}

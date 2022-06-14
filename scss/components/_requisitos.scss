@@ -1,0 +1,27 @@
+.color {
+	font-family: 'Poppins', sans-serif;
+	color: #ff4747;
+	font-weight: bolder;
+	font-size: 30px;
+	text-transform: uppercase;
+	text-align: center;
+	padding-top: 90px;
+}
+.requisitos {
+	padding-top: 80px;
+	line-height: 21px;
+	margin-top: 20px;
+	padding: 30px;
+	text-align: justify;
+}
+.container-requisitos {
+	background-color: white;
+	color: grey;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+.foto1 {
+	width: 90%;
+	margin-left: 5px;
+}
