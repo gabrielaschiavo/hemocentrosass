@@ -12,7 +12,7 @@
 	@extend %card;
 	@include tamaño-card(330px, 450px);
 	text-align: center;
-	background-image: url("../imagenes/fondo.jpg");
+	background-image: url("../imagenes/fondo.svg");
 	background-position: top;
 	background-repeat: no-repeat;
 	background-size: 100%;

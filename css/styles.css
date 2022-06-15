@@ -70,7 +70,7 @@ a:active {
   text-decoration: none; }
 
 .header {
-  background-image: url("../imagenes/header.jpg");
+  background-image: url("../imagenes/header.webp");
   background-size: cover;
   background-position: center; }
 
@@ -189,7 +189,7 @@ h4, .nombre-vol {
   width: 330px;
   height: 450px;
   text-align: center;
-  background-image: url("../imagenes/fondo.jpg");
+  background-image: url("../imagenes/fondo.svg");
   background-position: top;
   background-repeat: no-repeat;
   background-size: 100%; }
