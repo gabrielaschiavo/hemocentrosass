@@ -1,6 +1,23 @@
-.legales {
+/* FOOTER */
+footer {
 	background-color: #fd3030cb;
 	color: #ffffff;
+}
+
+a {
+	text-decoration: none;
+  }
+  
+.redes-sociales {
+	display: flex;
+	justify-content: center;
+	color: #ffffff;
+	font-size: 40px;
+	padding-top: 20px;
+	gap: 20px;
+}
+
+.legales {
 	text-align: center;
 	padding: 10px;
 	h4 {

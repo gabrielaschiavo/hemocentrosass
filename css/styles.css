@@ -8,6 +8,7 @@ body {
   font-family: 'Lato', sans-serif;
   padding-top: 70px; }
 
+/* HEADER */
 header {
   position: fixed;
   top: 0;
@@ -55,6 +56,7 @@ a:active {
   background-color: rgba(255, 255, 255, 0.637);
   transition: .4s; }
 
+/* SECCION INICIO */
 .button-turno {
   padding: 10px 20px;
   border-radius: .25rem;
@@ -87,6 +89,7 @@ a:active {
   background-color: #b1dff593;
   text-shadow: 2px 2px 2px #a8a8a8; }
 
+/* SECCION REQUISITOS */
 .color {
   font-family: 'Poppins', sans-serif;
   color: #ff4747;
@@ -114,6 +117,7 @@ a:active {
   width: 90%;
   margin-left: 5px; }
 
+/* SECCION TIPOS */
 .card-tipos, .card-vol {
   border-radius: 10px;
   box-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);
@@ -163,6 +167,7 @@ h4 {
   font-weight: 300;
   text-align: justify; }
 
+/* SECCION VOLUNTARIOS */
 .card-tipos, .card-vol {
   border-radius: 10px;
   box-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);
@@ -209,6 +214,7 @@ h4, .nombre-vol {
   display: flex;
   justify-content: center; }
 
+/* SECCION CONTACTO */
 .flex-container {
   display: flex;
   align-items: center;
@@ -259,9 +265,23 @@ h4, .nombre-vol {
     min-height: 150px;
     resize: none; }
 
-.legales {
+/* FOOTER */
+footer {
   background-color: #fd3030cb;
+  color: #ffffff; }
+
+a {
+  text-decoration: none; }
+
+.redes-sociales {
+  display: flex;
+  justify-content: center;
   color: #ffffff;
+  font-size: 40px;
+  padding-top: 20px;
+  gap: 20px; }
+
+.legales {
   text-align: center;
   padding: 10px; }
   .legales h4 {
