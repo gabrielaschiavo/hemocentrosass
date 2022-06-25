@@ -188,8 +188,7 @@ h4, .nombre-vol {
   padding: 20px;
   gap: 10px;
   color: grey;
-  display: flex;
-  justify-content: center; }
+  display: flex; }
 
 .card-vol {
   width: 330px;
@@ -272,7 +271,8 @@ footer {
   color: #ffffff; }
 
 a {
-  text-decoration: none; }
+  text-decoration: none;
+  color: #ffffff; }
 
 .redes-sociales {
   display: flex;
