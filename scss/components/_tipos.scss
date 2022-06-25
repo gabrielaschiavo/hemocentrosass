@@ -19,7 +19,7 @@
 }
 .card-tipos {
 	@extend %card;
-	@include tamaño-card(320px, 550px);
+	@include tamaño-card(320px, 560px);
 	line-height: normal;
 	text-align: justify;
 	@extend %animacion-card;

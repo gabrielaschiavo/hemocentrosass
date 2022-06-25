@@ -149,7 +149,7 @@ h4, .nombre-vol {
 
 .card-tipos {
   width: 320px;
-  height: 550px;
+  height: 560px;
   line-height: normal;
   text-align: justify; }
 
@@ -192,7 +192,7 @@ h4, .nombre-vol {
 
 .card-vol {
   width: 330px;
-  height: 450px;
+  height: 455px;
   text-align: center;
   background-image: url("../imagenes/fondo.svg");
   background-position: top;

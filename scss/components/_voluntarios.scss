@@ -12,7 +12,7 @@
 }
 .card-vol {
 	@extend %card;
-	@include tamaño-card(330px, 450px);
+	@include tamaño-card(330px, 455px);
 	text-align: center;
 	background-image: url("../imagenes/fondo.svg");
 	background-position: top;
